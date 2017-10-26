@@ -1525,6 +1525,10 @@ ul.bullet {
     transition: 0.4s;
 }
 
+.line{
+	text-decoration: underline;
+}
+
 button.accordion.active, button.accordion:hover {
     background-color: #ccc; 
 }
