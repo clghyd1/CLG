@@ -14,20 +14,14 @@
 		<!-- Loading main css file -->
 		<link rel="stylesheet" href="style.css">
 		
+    
+		
 		<!--[if lt IE 9]>
 		<script src="js/ie-support/html5.js"></script>
 		<script src="js/ie-support/respond.js"></script>
-		<![endif]-->
-		<link rel="stylesheet" type="text/css" href="YouTubePopUp.css">
-		<script src="http://code.jquery.com/jquery-1.12.1.min.js"></script>
-		<script type="text/javascript" src="js/YouTubePopUp.jquery.js"></script>
-		<script type="text/javascript">
-			jQuery(function(){
-				jQuery("a.bla-1").YouTubePopUp();
-			jQuery("a.bla-21").YouTubePopUp( { autoplay: 0 } ); // Disable autoplay
-			});
-		</script>
-		
+		<![endif]-->	
+		<link rel="stylesheet" type="text/css" href="css/svvg-styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 
 	</head>
 
@@ -56,45 +50,39 @@
 				<div class="mobile-navigation"></div>
 			</div>
 		</header> <!-- .site-header -->
-<p style="color:Green; font-size:15px"><marquee>Come and join with us in Sunday worship service at 10:00 AM</marquee></p>
 
-			<div class="page-head" data-bg-image="images/page-head-1.jpg">
-				<div class="container">
-					<h2 class="page-title">Spiritual Growth</h2><br/>
-					<a href="https://thebibleproject.com/" target="_blank" class="line">In Association with THE BIBLE PROJECT</a>
-				</div>
-			</div>
-
-			<main class="main-content">
-				
-				
 				<div class="fullwidth-block">
 					<div class="container">
 						<div class="row">
 							<div class="content col-md-8">
-								<h2 class="section-title">Bible Study - Year Plan</h2>
-								<button class="accordion">Old Testament - English</button>
+								<h2 class="section-title">Bible - Visual Storytelling</h2>
+								<ul id="svList">
+									<button class="accordion">Old Testament - English</button>
 									<div class="panel">
-									  <a class="bla-1" href="https://www.youtube.com/watch?v=GQI72THyO5I&t=343s" class="line">Genesis 1-11 Chapters</a> <br/>
-									  <a class="playauto" href="https://www.youtube.com/watch?v=F4isSyennFo&t=1s" target="_blank" class="line">Genesis 12-50 Chapters</a> <br/>
-									  <a class="playauto" href="https://www.youtube.com/watch?v=jH_aojNJM3E&index=3&list=PLx1RK58hji6NLM1_q9KXv5einSaz2fPnF" target="_blank" class="line">Exodus 1-18 Chapters</a> <br/>
-									  <a class="playauto" href="https://www.youtube.com/watch?v=oNpTha80yyE&index=4&list=PLx1RK58hji6NLM1_q9KXv5einSaz2fPnF" target="_blank" class="line">Exodus 19-40 Chapters</a> <br/>
-									  <a class="playauto" href="https://www.youtube.com/watch?v=IJ-FekWUZzE&list=PLx1RK58hji6NLM1_q9KXv5einSaz2fPnF&index=5" target="_blank" class="line">Leviticus</a><br/>
-									  <a class="playauto" href="https://www.youtube.com/watch?v=tp5MIrMZFqo&list=PLx1RK58hji6NLM1_q9KXv5einSaz2fPnF&index=6" target="_blank" class="line">Numbers</a><br/>
-									  <a class="playauto" href="https://www.youtube.com/watch?v=q5QEH9bH8AU&list=PLx1RK58hji6NLM1_q9KXv5einSaz2fPnF&index=7" target="_blank" class="line">Dueteronomy</a><br/>
+										<li class="svThumb ytVideo" data-videoID="GQI72THyO5I">Genesis 1-11 Chapters</li>
+										<li class="svThumb ytVideo" data-videoID="F4isSyennFo">Genesis 12-50 Chapters</li>
+										<li class="svThumb ytVideo" data-videoID="jH_aojNJM3E">Exodus 1-18 Chapters</li>
+										<li class="svThumb ytVideo" data-videoID="oNpTha80yyE">Exodus 19-40 Chapters</li>
+										<li class="svThumb ytVideo" data-videoID="IJ-FekWUZzE">Leviticus</li>
+										<li class="svThumb ytVideo" data-videoID="tp5MIrMZFqo">Numbers</li>
+										<li class="svThumb ytVideo" data-videoID="q5QEH9bH8AU">Dueteronomy</li>
+										<li class="svThumb ytVideo" data-videoID=""></li>
+									 
 									</div>
-
+							
 									<button class="accordion">New Testament - English</button>
-									<div class="panel">
-									  <a href="https://www.youtube.com/watch?v=3Dv4-n6OYGI" target="_blank" class="line">Matthew 1-13 Chapters</a><br/>
-									  <a href="https://www.youtube.com/watch?v=GGCF3OPWN14&t=1s" target="_blank" class="line">Matthew 14-28 Chapters</a><br/>
-									  <a href="https://www.youtube.com/watch?v=HGHqu9-DtXk&index=3&list=PLZEUGZkVgNzDUb1YEX_lYMD3cbKir5Nwa" target="_blank" class="line">Mark</a><br/>
-									  <a href="https://www.youtube.com/watch?v=XIb_dCIxzr0&index=4&list=PLZEUGZkVgNzDUb1YEX_lYMD3cbKir5Nwa" target="_blank" class="line">Luke 1-9 Chapters</a><br/>
-									  <a href="https://www.youtube.com/watch?v=26z_KhwNdD8&index=5&list=PLZEUGZkVgNzDUb1YEX_lYMD3cbKir5Nwa" target="_blank" class="line">Luke 10-24 Chapters</a><br/>
-									  <a href="https://www.youtube.com/watch?v=G-2e9mMf7E8&index=6&list=PLZEUGZkVgNzDUb1YEX_lYMD3cbKir5Nwa" target="_blank" class="line">John 1-12 Chapters</a><br/>
-									  <a href="https://www.youtube.com/watch?v=RUfh_wOsauk&index=7&list=PLZEUGZkVgNzDUb1YEX_lYMD3cbKir5Nwa" target="_blank" class="line">John 13-21 Chapters</a><br/>
-									</div>
-
+									<div class="panel">										
+										
+										<li class="svThumb ytVideo" data-videoID="3Dv4-n6OYGI">Matthew 1-13 Chapters</li>
+										<li class="svThumb ytVideo" data-videoID="GGCF3OPWN14">Matthew 14-28 Chapters</li>
+										<li class="svThumb ytVideo" data-videoID="HGHqu9-DtXk">Mark</li>
+										<li class="svThumb ytVideo" data-videoID="XIb_dCIxzr0">Luke 1-9 Chapters</li>
+										<li class="svThumb ytVideo" data-videoID="26z_KhwNdD8">Luke 10-24 Chapters</li>
+										<li class="svThumb ytVideo" data-videoID="G-2e9mMf7E8">John 1-12 Chapters</li>
+										<li class="svThumb ytVideo" data-videoID="RUfh_wOsauk">John 13-21 Chapters</li>	
+										
+									 </div>
+								
 								<!--	<button class="accordion">Torah Series - English</button>
 									<div class="panel">
 									  <a href="https://www.youtube.com/watch?v=GQI72THyO5I&t=343s" target="_blank" class="line">Genesis 1-11 Chapters</a> <br/>
@@ -118,19 +106,20 @@
 									-->
 									<button class="accordion">పాత నిబంధన - తెలుగు</button>
 									<div class="panel">
-									  <a href="https://www.youtube.com/watch?v=7t2EBth6xRw&t=109s" target="_blank" class="line">ఆదికాండం గ్రంథ వివరణ 1-11 Chapters</a> <br/>
-									  <a href="https://www.youtube.com/watch?v=6ixM1I0ewxQ" target="_blank" class="line">ఆదికాండం గ్రంథ వివరణ 12-50 Chapters</a> <br/>
-									  <a href="https://www.youtube.com/watch?v=FoQKsTvOTv8" target="_blank" class="line">నిర్గమకాండం గ్రంథం 1-18 Chapters</a> <br/>
-									  <a href="https://www.youtube.com/watch?v=itcVl9r3STU&list=PL8830pNGsJ-u4yfwWknykahpEalg7Vxo2&index=16" target="_blank" class="line">నిర్గమకాండం గ్రంథం 19-40 Chapters</a> <br/>
-									  <a href="https://www.youtube.com/watch?v=FWxLP0mNWQU&list=PL8830pNGsJ-u4yfwWknykahpEalg7Vxo2&index=17" target="_blank" class="line">లేవికాండం గ్రంథం </a><br/>
-									  <a href="https://www.youtube.com/watch?v=VwHxLls1mAs" target="_blank" class="line">సంఖ్యాకాండం గ్రంథం</a><br/>
-									  <a href="https://www.youtube.com/watch?v=MBGgN82Va1w&list=PL8830pNGsJ-u4yfwWknykahpEalg7Vxo2&index=19" target="_blank" class="line">ద్వితీయోదేశ కాండం గ్రంథం</a><br/>
+									  <li class="svThumb ytVideo" data-videoID="7t2EBth6xRw">ఆదికాండం గ్రంథ వివరణ 1-11 Chapters</li>
+									  <li class="svThumb ytVideo" data-videoID="6ixM1I0ewxQ">ఆదికాండం గ్రంథ వివరణ 12-50 Chapters</li>
+									  <li class="svThumb ytVideo" data-videoID="FoQKsTvOTv8">నిర్గమకాండం గ్రంథం 1-18 Chapters</li>	
+									  <li class="svThumb ytVideo" data-videoID="itcVl9r3STU">నిర్గమకాండం గ్రంథం 19-40 Chapters</li>	
+									  <li class="svThumb ytVideo" data-videoID="FWxLP0mNWQU">లేవికాండం గ్రంథం</li>	
+									  <li class="svThumb ytVideo" data-videoID="VwHxLls1mAs">సంఖ్యాకాండం గ్రంథం</li>	
+									  <li class="svThumb ytVideo" data-videoID="MBGgN82Va1w">ద్వితీయోదేశ కాండం గ్రంథం</li>											  
 									</div> 
 									<button class="accordion">క్రొత్త నిబంధన - తెలుగు</button>
 									<div class="panel">
-									Coming Soon...!!!
+									<li class="svThumb ytVideo" data-videoID="MBGgN82Va1w">Coming Soon...!!!</li>	
 									</div>
-									
+									</ul>
+								<script src="js/speedvault.js"></script>
 									<script>
 										var acc = document.getElementsByClassName("accordion");
 										var i;
@@ -149,39 +138,23 @@
 										</script>
 							</div>
 							<div class="sidebar col-md-3 col-md-offset-1">
-								<div class="widget">
-									<h3 class="widget-title">Categories</h3>
-									<ul class="arrow">
-										<li><a href="#">Sunday School</a></li>
-										<li><a href="#">Worship Team</a></li>
-										<li><a href="#">Prayer Team</a></li>
-										<li><a href="#">Decans Team</a></li>
-										<li><a href="#">Administration</a></li>
-									</ul>
+							
+								<div class="widget" style="overflow-y: scroll; height:650px;width:320px">
+									<h3 class="widget-title">Year - Read Plan</h3>								
+									<img src="images/read1.png" alt="">
+									<img src="images/read2.png" alt="">
+									<img src="images/read3.png" alt="">
+									<img src="images/read4.png" alt="">
+									<img src="images/read5.png" alt="">
+									<img src="images/read6.png" alt="">
+									<img src="images/read7.png" alt="">
 								</div>
 
-								
-
-								<div class="widget">
-									<h3 class="widget-title">Gallery updates</h3>
-
-									<div class="galery-thumb">
-										<a href="#"><img src="images/gallery-thumb-1.jpg" alt=""></a>
-										<a href="#"><img src="images/gallery-thumb-2.jpg" alt=""></a>
-										<a href="#"><img src="images/gallery-thumb-3.jpg" alt=""></a>
-										<a href="#"><img src="images/gallery-thumb-4.jpg" alt=""></a>
-										<a href="#"><img src="images/gallery-thumb-5.jpg" alt=""></a>
-										<a href="#"><img src="images/gallery-thumb-6.jpg" alt=""></a>
-									</div>
-								</div>
-
-								<div class="widget">
-									<h3 class="widget-title">Text widget </h3>
-									<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illum aliquam obcaecati velit, atque necessitatibus molestias ullam tempore itaque quidem sequi ea sed consectetur, eligendi cupiditate saepe! Hic veniam maiores explicabo.</p>
-								</div>
 							</div>
 						</div>
 					</div>
+				
+				
 				</div>
 			</main> <!-- .main-content -->
 
